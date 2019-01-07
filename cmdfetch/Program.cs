@@ -261,7 +261,7 @@ namespace cmdfetch
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("CPU: ");
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write(CPUVer);
+                Console.Write(CPUVer + " (" + GetCPUCoreCount() + " cores)");
                 Console.ForegroundColor = ConsoleColor.Gray;
             }
             else
